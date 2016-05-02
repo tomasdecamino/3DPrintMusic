@@ -54,7 +54,7 @@ end
 
 define :p4 do 
 	with_fx :level, amp: level4 do 
-		sample P4, rate: 1 
+	  sample P4, rate: 1 
 		sleep sample_duration (P1) 
 	end 
 end 
